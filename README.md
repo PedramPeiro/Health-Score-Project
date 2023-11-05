@@ -21,7 +21,10 @@ While this process may appear unconventional, it aligns with the CTL (cluster th
 
 
 ## Calculating the Health Score
-The best performance a bizodmain can show is having features equal to one in all features which in this case, its health score is equal to 10. otherwise, it would obtain a health score lower than 10. To calculate this, euclicidean weighted distance to the optimal state was calculated for each bizdomain and then scaled to 0-10. For example consider the weights for the 5 mentioned features as (0.1, 0.2, 0.3, 0.15, 0.25) and the the features as (1, 0.75, 0.6, 0.7, 0.5, 0.2). It's score is:
+The highest achievable performance for a BizDomain is represented by having all features equal to one, resulting in a health score of 10. If any of the features deviates from one, the health score will be lower than 10. To calculate this health score, we utilize the Euclidean weighted distance from the optimal state for each BizDomain, which is then scaled to a range of 0-10.
+
+For example, let's consider the weights for the five mentioned features as (0.1, 0.2, 0.3, 0.15, 0.25), and the corresponding feature values as (1, 0.75, 0.6, 0.7, 0.5). To calculate the health score, we use the following formula:
+
 
 HS = 1 - \sqrt{0.1(1-1)^2 + 0.2(1-0.75)^2 + 0.3(1-0.6)^2 + 0.15(1-0.5)^2 + 0.25(1-0.2)^2} = 0.505
 
