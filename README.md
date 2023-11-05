@@ -1,4 +1,4 @@
-# Health-Score-Project
+# Health Score Project
 This project involves the calculation of a health score for various components critical to Didar's CRM system, such as a company's overall performance, its users, the pipeline, deals, and cases utilized by users, among others. By doing so, members of the "Support Team" and "Customer Success" can leverage these reports to effectively manage users, identify potential causes for churn, and proactively prevent customer attrition in the future.
 
 The project primarily focused on extensive feature engineering to efficiently handle various features. Since the core project's workflow remained consistent, I will specifically detail the 'Deal Health Score' project, while mentioning that the other two projects were developed as variants due to the primary project's success in delivering accurate results.
