@@ -26,7 +26,7 @@ The highest achievable performance for a BizDomain is represented by having all 
 For example, let's consider the weights for the five mentioned features as (0.1, 0.2, 0.3, 0.15, 0.25), and the corresponding feature values as (1, 0.75, 0.6, 0.7, 0.5). To calculate the health score, we use the following formula:
 
 
-HS = 1 - \sqrt{0.1(1-1)^2 + 0.2(1-0.75)^2 + 0.3(1-0.6)^2 + 0.15(1-0.5)^2 + 0.25(1-0.2)^2} = 0.505
+$HS = 1 - \sqrt{0.1(1-1)^2 + 0.2(1-0.75)^2 + 0.3(1-0.6)^2 + 0.15(1-0.5)^2 + 0.25(1-0.2)^2} = 0.505$
 
 This score would be later multiplied by 10 and the final Health Score is 5.05.
 
